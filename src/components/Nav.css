@@ -1,0 +1,99 @@
+* {
+    transition: .2s all;
+}
+
+nav {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+nav.dark-mode {
+    background: #21222A;
+}
+
+nav.light-mode {
+    background: white;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: 2rem;
+}
+
+#logo h1 {
+    margin-left: .5rem;
+    color: #61DAFB;
+    font-size: 22.5px;
+    font-family: var(--font);
+}
+
+p {
+    font-size: 16px;
+}
+
+#project-info.dark-mode {
+    color: white;
+}
+
+#text-light.dark-mode {
+    color: white;
+    opacity: .25;
+}
+
+#text-dark.dark-mode {
+    color: white;
+}
+
+#text-dark.light-mode {
+    opacity: .25;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+}
+
+#toggle-bg {
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    margin: 0 .75rem 0 .75rem;
+    position: relative;
+    cursor: pointer;
+}
+
+#toggle-bg.light-mode {
+    background: #21222A;
+}
+
+#toggle-bg.dark-mode {
+    background: white;
+}
+
+#toggle-circle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    left: .25rem;
+    top: .25rem;
+    position: absolute;
+}
+
+#toggle-circle.light-mode {
+    background: white;
+}
+
+#toggle-circle.dark-mode {
+    background: #21222A;
+    transform: translateX(1.25rem);
+}

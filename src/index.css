@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* border: 1px solid red; */
+
+}
+
+:root {
+  /* text properties */
+  --font: system-ui;
+  --text-color-light: #21222A;
+  --text-color-dark: white;
+
+  /* colors */
+  --background-light: white;
+  --background-nav-dark: #21222A;
+  --background-main-dark: #282D35;
+}
